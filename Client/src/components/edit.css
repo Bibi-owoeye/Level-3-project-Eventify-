@@ -1,0 +1,142 @@
+.edit-container {
+    padding: 2rem;
+  }
+  
+  .edit-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .section-header h3 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 48.76px;
+    color: #2D2C3C;
+    margin-bottom: 1rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .input-field {
+    width: 100%;
+    max-width: 900px;
+    height: 58px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    padding: 14px 24px;
+    outline: none;
+    text-transform: capitalize;
+  }
+  
+  .input-icon-wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .input-icon {
+    width: 58px;
+    height: 100%;
+    border-radius: 6px;
+  }
+  
+  .add-session-icon {
+    width: 48px;
+    height: 48px;
+  }
+  
+  .textarea-field {
+    width: 100%;
+    max-width: 900px;
+    height: 200px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    padding: 14px 24px;
+    outline: none;
+    resize: none;
+  }
+  
+  .required {
+    color: red;
+  }
+  
+  .save-btn-wrapper {
+    text-align: right;
+  }
+  
+  .save-btn {
+    background-color: #2B293D;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1024px) {
+    .input-field,
+    .textarea-field {
+      max-width: 100%;
+      width: 790px !important;
+    }
+  
+    .mx-16 {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    
+    .section-header h3 {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .input-field,
+    .textarea-field {
+      max-width: 100%;
+      width: 720px !important;
+    }
+  
+    .flex {
+      flex-direction: column;
+    }
+  
+    .gap-12, .gap-8 {
+      gap: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .input-field,
+    .textarea-field {
+      max-width: 100%;
+      width: 720px !important;
+
+    }
+  
+    .save-btn-wrapper {
+      text-align: center;
+    }
+
+    #event-location {
+        width: 900px;
+    }
+  
+    .save-btn {
+      width: 100%;
+    }
+  
+    .section-header h3 {
+      font-size: 1.5rem;
+    }
+  }
+  
